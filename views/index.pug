@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+head
+    title Stock Hound
+    meta(charset='utf-8')
+    script(src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous")
+    //- script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+    script(src="https://code.highcharts.com/stock/highstock.js")
+    script(src="https://code.highcharts.com/stock/modules/exporting.js")
+    script(src="/socket.io/socket.io.js")
+    script(src="https://fb.me/react-with-addons-15.2.1.min.js")
+    script(src="https://fb.me/react-dom-15.2.1.min.js")
+
+    link(href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet")
+    link(href="/css/flat-ui.css" rel="stylesheet")
+    link(rel='stylesheet' href='/css/style.css' type='text/css')
+
+body
+    script(src='/js/react.js')
+    script(src='/js/chart.js')
+
+    div
+        #sidebar
+        div
+            header
+                h5 Stock 
+                    strong Hound
+            #container
